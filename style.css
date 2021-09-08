@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000000;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.clock{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff200;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+
+.channel_name{
+  position: absolute;
+  top: 57%;
+  left: 35%;
+  color: #fff200;
+  font-size: 70px;
+}
